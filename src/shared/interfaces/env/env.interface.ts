@@ -1,0 +1,32 @@
+export interface Env {
+  NODE_ENV: string;
+  PORT: number;
+  BASE_URL: string;
+  MARKETPLACE_DASHBOARD_URL: string;
+  DATABASE_HOST: string;
+  DATABASE_PORT: number;
+  DATABASE_USER: string;
+  DATABASE_PASSWORD: string;
+  DATABASE_NAME: string;
+  DATABASE_DIALECT: string;
+  SENDGRID_API_KEY: string;
+  SENDGRID_FROM_EMAIL: string;
+  JWT_SECRET: string;
+  JWT_EXPIRATION: string;
+  REFRESH_TOKEN_EXPIRY_TIME: string;
+  BCRYPT_SALT: string;
+  ENABLE_LOGGING: boolean;
+  GOOGLE_USER_INFO_URL: string;
+  MARKETPLACE_LOGIN_URL: string;
+  RECAPTCHA_SECRET_KEY: string;
+  SWAGGER_TITLE: string;
+  SWAGGER_DESCRIPTION: string;
+  SWAGGER_VERSION: string;
+  SWAGGER_USER: string;
+  SWAGGER_PASSWORD: string;
+  REDIS_HOST: string;
+  REDIS_PORT: number;
+  REDIS_USER: string;
+  REDIS_PASSWORD: string;
+  SELLER_URL: string;
+}
